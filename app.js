@@ -11,7 +11,7 @@ app.get('/health', (req, res) => {
 
 app.get('/version', (req, res) => {
   res.send(version)
-  console.log('hi Erick')
+  console.log('hi Erick Maigua')
 })
 
 app.use(express.static('dist'))
